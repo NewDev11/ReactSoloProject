@@ -7,12 +7,12 @@ const BaseLayout = (props) => {
   return (
     <><div>
         
-    </div>
-        <ul>
+        <ul flex-direction= "row">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/favs">Favorites</Link></li>
             <li><Link to="/about">About Me</Link></li>
         </ul>
+    </div>
       {props.children}
 
     </>
